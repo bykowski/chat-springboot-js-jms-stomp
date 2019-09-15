@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello chat!!!</title>
+</head>
+<body onload="connect()" >
+<div>
+    <label>User:</label>
+    <input id="user" type="text"/><br>
+
+    <label>You message:</label>
+    <input id="messageToSend" type="text"/><br>
+
+    <button onclick="sendMessage()">Send</button>
+    <p id="reponse"></p>
+</div>
+<script src="js.js"></script>
+<script src="stomp.js"></script>
+</body>
+</html>
